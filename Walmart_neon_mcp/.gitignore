@@ -1,0 +1,9 @@
+.neon
+.env.local
+.venv/
+__pycache__/
+
+main.py
+README.md
+uv.lock
+Walmart_structure.txt
