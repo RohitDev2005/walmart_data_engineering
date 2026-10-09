@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.vscode/
+
+# Local starter files
+main.py
+README.md
+uv.lock
+/requirements.txt
+Walmart_dbt_structure.txt
+
+# Exclude the separate root dbt project copy
+/walmart_project/
+
+# Generated logs
+**/logs/
+
+# Local Airflow configuration
+/airflow/config/
+/airflow/plugins/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+**/profiles.yml
+**/.user.yml
